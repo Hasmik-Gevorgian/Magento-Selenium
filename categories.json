@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "Login Tests",
+      "description": "Tests related to user login functionality.",
+      "cases": [
+        {
+          "name": "Invalid Login Test",
+          "severity": "critical"
+        },
+        {
+          "name": "Successful Login Test",
+          "severity": "blocker"
+        }
+      ]
+    },
+    {
+      "name": "Password Change Tests",
+      "description": "Tests related to changing user passwords.",
+      "cases": [
+        {
+          "name": "Incorrect Current Password Test",
+          "severity": "critical"
+        },
+        {
+          "name": "Password Mismatch Test",
+          "severity": "critical"
+        },
+        {
+          "name": "Successful Password Change Test",
+          "severity": "blocker"
+        }
+      ]
+    }
+  ]
+}
